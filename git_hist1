@@ -1,0 +1,385 @@
+ 1047  less grepgit 
+  104  git init
+  105  git add .
+ 1062  mkdir hexlet_git
+ 1064  cd hexlet_git/
+ 1066  git init
+ 1067  git status
+ 1068  history | grep git | sort | tee git_hist1
+  106  git commit
+  107  git config --global user.email "imalikor@gmail.com"
+  108  git config --global user.name "imalikor"
+  109  git commit
+  111  git commit
+  114  git commit
+  115  git add file1 file2
+  116  git diff --cached
+  117  git restore file1
+  118  git diff --cached
+  120  git restore file1
+  121  git diff --cached
+  123  git diff --cached
+  124  git diff 
+  126  git diff 
+  127  git restore file1
+  128  git diff 
+  131  git diff 
+  133  git diff 
+  134  git commit 
+  135  git diff 
+  137  git diff --cached
+  138  git diff
+  139  git add file5 file1
+  140  git diff
+  141  git diff --cached
+  142  git commit
+  143  git status
+  145  git status
+  146  git commit
+  147  git commit -a
+  149  git log
+  150  git log -p
+  161  git log -p
+  163  git status 
+  164  git diff
+  165  git diff --cached
+  166  git log -p
+  167  git log
+  169  git log
+  171  git log
+  172  git diff
+  173  git diff --cached
+  174  git log
+  175  git status 
+  176  git log -p
+  177  git commit
+  178  git commit -a
+  179  git log -p
+  180  git log --stat --summary
+  181  git log -p
+  182  git branch experimental
+  183  git branch
+  184  git branch ontheedge
+  185  git branch
+  186  git branch stable
+  187  git branch
+  188  git switch experimental 
+  189  git branch
+  195  git branch
+  196  git commit -a
+  197  git log -p
+  198  git log --stat --summary
+  200  git log --stat --summary
+  201  git 
+  202  git log -p
+  204  git log -p
+  205  git switch master 
+  206  git branch 
+  208  git switch ontheedge 
+  210  git switch experimental 
+  212  git switch master 
+  214  git branch 
+  216  git branch 
+  218  git commit -a
+  220  git log -p
+  221  git merge experimental 
+  222  git diff
+  223  git commit -a
+  229  git diff
+  230  git branch
+  231  git switch experimental 
+  236  git switch stable 
+  240  git switch master 
+  241  git branch
+  244  gitk
+  245  git branch crazy-idia
+  246  git branch 
+  247  git switch crazy-idia 
+  249  git diff
+  251  git diff
+  253  git diff
+  254  git diff --cached
+  255  git diff -cached
+  256  git diff --cached
+  257  git log --stat --summary
+  258  git log -p
+  259  git status 
+  260  git diff
+  261  git commit -a
+  262  git branch -d crazy-idia 
+  263  git branch -D crazy-idia 
+  264  git switch master 
+  265  git branch -d crazy-idia 
+  266  git branch -D crazy-idia 
+  271  git pull /home/john/myrepo master
+  273  git pull /home/john/myrepo master
+  274  git commit -a
+  276  git pull /home/john/myrepo master
+  277  git fetch /home/john/myrepo master
+  278  git log -p FETCH_HEAD 
+  279  git log -p HEAD..FETCH_HEAD 
+  281  git log -p HEAD..FETCH_HEAD 
+  282  gitk log -p HEAD..FETCH_HEAD 
+  283  gitk HEAD..FETCH_HEAD 
+  284  gitk HEAD...FETCH_HEAD 
+  285  gitk HEAD....FETCH_HEAD 
+  286  gitk HEAD...FETCH_HEAD 
+  287  gitk HEAD.FETCH_HEAD 
+  288  gitk HEAD..FETCH_HEAD 
+  289  gitk HEAD...FETCH_HEAD 
+  290  git pull /home/john/myrepo master
+  291  git commit
+  292  git diff
+  294  git diff
+  295  git diff --cached
+  296  git diff
+  298  git commit -a
+  299  git diff
+  300  git pull /home/john/myrepo master
+  302  git remote add john /home/john/myrepo
+  303  git fetch john
+  304  git fetch
+  305  git branch 
+  306  git log -p master..bob/master
+  307  git log -p master..john/master
+  308  git fetch john
+  309  git log -p master..john/master
+  310  git diff
+  311  git fetch john
+  312  git diff
+  313  git diff --cached
+  314  git diff john
+  315  git log -p master..john/master
+  316  git merge john/master 
+  317  git commit 
+  318  git commit -a
+  321  git commit -a
+  323  git show
+  324  git show 2dcdb4
+  325  git show HEAD
+  327  git show HEAD
+  330  git grep "code"
+  331  gitk 
+  332  gitk HEAD..FETCH_HEAD
+  333  git fetch john 
+  334  gitk HEAD..FETCH_HEAD
+  335  gitk master..john/master 
+  336  git fetch john 
+  337  gitk master..john/master 
+  338  gitk master...john/master 
+  339  gitk master....john/master 
+  340  gitk master...john/master 
+  341  git commit 
+  342  git merge
+  343  git merge john/master 
+  344  git commit 
+  345  git diff
+  347  git commit -a
+  349  gitk
+  350  git merge john/master 
+  351  git fetch john 
+  352  gitk master..john/master 
+  354  git status 
+  355  git log -p
+  360  git status 
+  361  git dif
+  362  git diff
+  363  git log -p
+  365  git diff
+  366  git commit -a
+  367  git tag -a
+  368  git tag -a NOVEMBER
+  369  git log 
+  370  git log -p
+  371  gitk
+  383  git status 
+  384  git diff
+  385  git diff --cached
+  386  git commit -a
+  387  git add file6 
+  388  git commit
+  389  gitk
+  393  git tag new_file
+  394  gitk
+  397  git commit -a
+  398  git commit
+  399  git commit -a
+  400  git tag -a
+  401  git tag -a file6edited
+  402  gitk
+  403  git checkout new_file master/file6
+  404  git checkout new_file /master/file6
+  405  git checkout new_file ./file6
+  407  git diff
+  408  git diff -p
+  409  git diff --cached
+  410  git commit -a
+  411  git tag
+  412  git tag -a
+  413  git tag restorred_from_newfiletag
+  414  gitk
+  416  git switch experimental 
+  417  git merge master 
+  419  gitk
+  420  git revert restorred_from_newfiletag 
+  422  git branch 
+  424  git commit -a
+  425  git reset restorred_from_newfiletag 
+  428  gitk
+  429  git reset file6edited 
+  431  git revert file6edited 
+  432  git checkout  file6edited 
+  434  git diff --cached
+  435  git branch master 
+  436  git switch master 
+  437  git branch 
+  438  git status 
+  439  git diff --cached
+  440  git commit -a
+  442  gitk
+  443  git reset --hard restorred_from_newfiletag 
+  444  git switch experimental 
+  446  git commit -a
+  447  git tag -a тэгкоммитаэксперементальной
+  448  gitk
+  449  git status
+  450  git switch
+  451  git switch master
+  452  git status
+  453  git fetch remote
+  454  git fetch john
+  455  git commit -a
+  456  git log -p master..FETCH_HEAD 
+  457  git pull john 
+  458  git pull john/master
+  459  git pull john master
+  460  git diff --cached
+  461  git commit 
+  462  gitk
+  465  git fetch /home/john/myrepo
+  466  git fetch /home/john/myrepo master
+  467  git fetch /home/john/myrepo experimental
+  468  git fetch /home/john/myrepo expiremintal
+  469  git branch 
+  470  git fetch /home/john/myrepo experimental
+  471  git fetch /home/john/myrepo experimental file2
+  472  git fetch /home/john/myrepo experimental file6edited
+  473  git log -p master..FETCH_HEAD 
+  479  git status 
+  480  gitk
+  490  git tag -l
+  491  gitk
+  492  git branch
+  493  git switch -c 
+  494  git branch
+  497  git switch master 
+  498  git branch
+  500  git status
+  501  git show
+  507  git show
+  508  git switch -c restore f9bec
+  514  git branch
+  515  man git-branch
+  516  git branch -d new
+  517  git branch -D new
+  518  git switch master 
+  519  git branch -D restore
+  521  git log -p
+  526  git log -p
+  528  git log -p
+  537  git log -p
+  538  git switch -c john a51a
+  540  git log
+  541  git show file6edited 
+  543  git show file6edited 
+  553  git status 
+  554  git branch 
+  555  git switch master 
+  556  git status 
+  557  git diff --cached
+  558  git log -p
+  582  git status 
+  583  git log -p
+  601  git status
+  602  git log -p
+  605  git log -p
+  614  git log -p
+  616  git log -p
+  618  git branch 
+  619  git status 
+  620  git diff
+  621  git log -p
+  622  git status 
+  623  git commit -a
+  624  git add file9 
+  625  git diff
+  626  git commit -a
+  627  git tag -a "Добавил файл 9"
+  628  git tag -a "File 9 is added"
+  629  git tag -a File 9 is added
+  630  git tag -a File_9_is_added
+  631  gitk
+  636  cd Test/project/.git/
+  637  git status 
+  638  git diff
+  640  git diff
+  641  git status 
+  642  git log -p
+  645  git status 
+  646  git log -p
+  650  git log -p
+  652  git log -p
+  657  git log -p
+  659  git commit -a
+  660  git log -p
+  663  git log -a
+  666  git log -p
+  668  git log -p
+  671  git log -p
+  673  git log -p
+  679  git log -p
+  688  git log -p
+  695  git log -p
+  698  git log -p 
+  708  git log -p
+  737  git -p log
+  739  git -p log
+  744  git log -p
+  745  man git
+   79  man git
+   80  man git user's manual
+   82  man git
+   84  man git
+   86  man giteveryday
+   87  apt-get install gitextensions
+   88  sudo apt-get install gitextensions
+   89  sudo apt-get install git extensions
+   90  sudo apt-get install git-extensions
+   91  sudo apt-get install git_extensions
+   92  sudo apt-cache search git-extensions
+   93  sudo apt-cache search git_extensions
+   94  sudo apt-cache search gitextensions
+  963  history | grep git | less
+  964  history | grep git | uniq | less
+  966  history | grep git | uniq | less
+  967  history | grep git | uniq -s 3 | less
+  968  history | grep git | uniq -s 4 | less
+  969  history | grep git | less | iniq -s 3
+   96  sudo apt-cache search extensions | grep git
+  970  history | grep git | less | uniq -s 3 | less
+  971  history | grep git | uniq -s 4 | tee grepgit
+  972  less grepgit 
+  973  vim grepgit 
+  974  history | grep git | uniq -s 5 | tee grepgit
+  975  history | grep git | uniq -s 5 | less
+   97  sudo apt-cache search git | grep extension
+  982  history | grep git | uniq -s 6 | less
+  984  history | grep git | uniq -s 5 -u | less
+  985  history | grep git | uniq -su 5 | less
+  986  history | grep git | uniq -u | less
+  987  history | grep git | uniq -f 5 | less
+  988  history | grep git | less
+  989  history | grep git | uniq -f 1 | less
+  990  history | grep git | uniq -f 4 | less
+  991  history | grep git | uniq -f 5 | less
+  992  man git
